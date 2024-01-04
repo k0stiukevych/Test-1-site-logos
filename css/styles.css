@@ -1,3 +1,4 @@
+/* ----BASE--------- */
 body {
   font-family: "Roboto", sans-serif;
   color: #333333;
@@ -51,51 +52,55 @@ address {
 /* ----HEADER-------------------- */
 
 .header-line {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header {
-    padding-top: 25px;
-    padding-bottom: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 
-    background-color: #6B6B6B;
-    position: sticky;
+  background-color: #6b6b6b;
+  position: sticky;
   width: 100%;
   top: 0;
   z-index: 999;
 }
 
-
 .icon {
-    position: relative;
+  position: relative;
   width: 97px;
   height: 20px;
   stroke: #ffffff;
   fill: #ffffff;
-  z-index: 2000; 
+  z-index: 2000;
 }
 
-.icon:hover, .icon:active, .icon:focus {
-    fill: #333333;
-    stroke: #333333;
+.icon:hover,
+.icon:active,
+.icon:focus {
+  fill: #333333;
+  stroke: #333333;
 }
 
 .nav-list-header {
-    display: flex;
-
+  display: flex;
 }
 
 .nav-list {
-    color: #ffffff;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    padding: 25px 20px;
+  color: #ffffff;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  padding: 25px 20px;
 }
 
-.nav-list:hover, .nav-list:active, .nav-list:focus {
-    background-color: #ffffff;
-    color: #333333;
+.nav-list:hover,
+.nav-list:active,
+.nav-list:focus {
+  background-color: #ffffff;
+  color: #333333;
 }
+
+/* ---------------------------------------------------------------- */
