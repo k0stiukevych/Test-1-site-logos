@@ -266,3 +266,131 @@ address {
 }
 
 /* ---------------------------------------------------------------- */
+
+/* ---CLASS SECTION------------------------------------ */
+
+.class-section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #ffffff;
+}
+
+.list-class {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 1152px;
+}
+
+.class-list-item1 {
+  width: 576px;
+  padding: 69px 47px 96px 20px;
+}
+
+.title-list-class1 {
+  margin-bottom: 14px;
+
+  width: 234px;
+  color: #000;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.p-list-class1 {
+  width: 509px;
+  color: #000;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.class-item-pic1 {
+  display: flex;
+  width: 576px;
+  height: 311px;
+  padding: 0px 168px 10.25px 168px;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  flex-shrink: 0;
+}
+
+.class-p-underpic1 {
+  width: 197px;
+  color: #777;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.class-item-pic2 {
+  display: flex;
+  width: 576px;
+  height: 249px;
+  padding: 15.75px 136px 26.25px 136px;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  flex-shrink: 0;
+}
+
+.class-p-underpic2 {
+  width: 304px;
+  color: #777;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.class-list-item2 {
+  width: 576px;
+  height: 249px;
+  flex-shrink: 0;
+  padding: 68.75px 36px 58.25px 20px;
+}
+
+.title-list-class2 {
+  width: 388px;
+  color: #000;
+  font-family: Roboto;
+  font-size: 31px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+  margin-bottom: 14px;
+}
+
+.p-list-class2 {
+  width: 520px;
+  color: #000;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.button-class-sec {
+  padding: 10px;
+  background-color: #3B79C3;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  margin: 0 5px;
+}
+
+.button-class-sec:hover {
+  background-color: #ffffff;
+  color: #000;
+  border: 1px solid #000;
+}
